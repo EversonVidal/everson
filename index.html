@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Lenguaje de Señas </title>
+    <link href="css/style.min.css" rel="stylesheet"/>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/leap-0.6.4.min.js"></script>
+  </head>
+
+  <body>
+    <header class="blog-header row">
+      <div class="blog-name">
+        <a href="#">Traductor de lenguaje de Señas</a>
+        
+      </div>
+    </header>
+
+    <nav class="blog-menu row">
+      <div class="container">
+        <ul id="main-navigation" class="link-menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Proyecto</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="blog-content row">
+      <div class="container">
+        <article class="post row">
+          <header class="post-header">
+            <h1 class="post-title">
+              <a href="#">Abecedario en Señas para Bolivia</a>
+            </h1>
+          </header>
+              
+          <div class="post-summary">
+            <figure class="post-thumbnail">
+              <img src="imagenes/abecedario.jpg" height="1508" width="2800" alt="">
+            </figure>
+          </div>
+        </article>
+      </div>
+      <div id="container">
+        <div id="letter">figura</div>
+      </div>
+      <script>
+        
+        
+        $(document).ready(function(){
+        var controller = new Leap.Controller();
+//        alert("1");
+        if(!controller.deviceAttached){
+        // $('#alert').fadeIn();
+        // $('#alert').css('display', 'block');
+        }
+        $('#cancel').click(function(){
+        // $('#alert').fadeOut();
+        });
+        })
+
+      </script>
+      <script type="text/javascript" src="js/index.js"></script>
+    </main>
+
+    <footer class="blog-footer row">
+      <div class="container gutters">
+        <div class="col span_6">
+          <nav id="secondary-navigation" class="social-media">
+            <ul>
+              <li class="facebook"><a href="#">Facebook</a></li>
+              <li class="twitter"><a href="#">Twitter</a></li>
+              <li class="google"><a href="#">Google+</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col span_6">
+          <p class="copyright">&copy; 2017. Responsive Site by Everson</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
