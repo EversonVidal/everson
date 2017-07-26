@@ -1,0 +1,94 @@
+
+{
+
+        "palabra": [
+            {
+                "value": "hola",
+                "img": "../imagenes/img_mudo/hola.jpg"
+
+            },
+            {
+                "value": "chau",
+                "img": "../imagenes/img_mudo/chau.jpg"
+
+            },
+            {
+                "value": "permiso",
+                "img": "../imagenes/img_mudo/permiso.jpg"
+
+            },
+            {
+                "value": "buenos días",
+                "img": "../imagenes/img_mudo/buenos-dias.jpg"
+
+            },
+            {
+                "value": "buenas tardes",
+                "img": "../imagenes/img_mudo/buenas-tardes.jpg"
+
+            },
+            {
+                "value": "gracias",
+                "img": "../imagenes/img_mudo/gracias.jpg"
+
+            },
+            {
+                "value": "buenas noches",
+                "img": "../imagenes/img_mudo/buenas-noches.jpg"
+
+            },
+            {
+                "value": "por favor",
+                "img": "../imagenes/img_mudo/por-favor.jpg"
+
+            },
+            {
+                "value": "cómo estás",
+                "img": "../imagenes/img_mudo/como-estas.jpg"
+
+            },
+            {
+                "value": "estoy bien",
+                "img": "../imagenes/img_mudo/estoy-bien.jpg"
+
+            },
+            {
+                "value": "puedo",
+                "img": "../imagenes/img_mudo/puedo.jpg"
+            },
+            {
+                "value": "no puedo",
+                "img": "../imagenes/img_mudo/no-puedo.jpg"
+            },
+            {
+                "value": "mal",
+                "img": "../imagenes/img_mudo/mal.jpg"
+            },
+            {
+                "value": "más o menos",
+                "img": "../imagenes/img_mudo/mas-o-menos.jpg"
+            },
+            {
+                "value": "nombre",
+                "img": "../imagenes/img_mudo/nombre.jpg"
+            },
+            {
+                "value": "si",
+                "img": "../imagenes/img_mudo/si.jpg"
+            },
+            {
+                "value": "no",
+                "img": "../imagenes/img_mudo/no.jpg"
+            },
+            {
+                "value": "lo siento",
+                "img": "../imagenes/img_mudo/lo-siento.jpg"
+            },
+            {
+                "value": "te amo",
+                "img": "../imagenes/img_mudo/te-amo.jpg"
+            }
+
+        ]
+
+}
